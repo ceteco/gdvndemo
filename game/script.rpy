@@ -44,7 +44,7 @@ label start:
     "Cómo verás son muchos los aspectos de crear un videojuego"
     "Por eso el trabajo en equipo es importante"
     c "No sabía que era tanto lo que involucraba"
-    c "¿Cómo son los desarrolladores de videojuegos?
+    c "¿Cómo son los desarrolladores de videojuegos?"
     "Son creativos y además entienden cosas de tecnología, matemáticas, contar historias y arte"
     "... de repente..."
 
