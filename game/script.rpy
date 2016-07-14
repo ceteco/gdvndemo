@@ -136,12 +136,9 @@ label dibujar:
     c "ajaja, no es para tanto (Sí supiera como me costó)"
     d "No digas tonterías, este trabajo ya nos saca del apuro"
     c "Gracias"
-    d "Ven, te invito a una pizza..."
+    d "Ven ¡Vamos a la cafetería, yo invito!"
+    c "Calos pensó para sí -Qué tacaño este desarrollador, pero bueno..."
     "Buen final"
-
-
-
-
 
 
 
