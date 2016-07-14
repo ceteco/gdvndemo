@@ -65,8 +65,26 @@ label start:
     "Vale, relájate y sigamos con..."
     d "¡Ey! ¿Adonde se fueron María y José?"
     "No lo sé -Contestó el guía"
-    d "¡Ellos son quienes saben de gráficos y en este momento necesitamos cambiar los gráficos de la nave en cosa de 30 minutos!"
+    d "¡Ellos son quienes saben de gráficos y en este momento necesitamos cambiar los dibujos de la nave en cosa de 30 minutos!"
+    "Chale ¿Qué pasó? ¿Se desaparecieron en el temblor?"
+    d "¡No sé! ¡Sus escritorios simplemente están vacíos!"
+    d "¡No están por ningún lado"
+    c "¡Rayos! -Pensé para mí mismo"
+    c "Oigan ustedes..."
     
+    menu:
+
+    "... creo que mejor voy partiendo":
+
+        jump ayudar
+
+    "... ¿Puedo ayudar en algo":
+
+        jump ayudar
+        
+    
+    label ayudar:
+        
 
 
     return
