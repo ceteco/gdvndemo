@@ -1,6 +1,6 @@
 ﻿# You can place the script of your game in this file.
 # - Puedes colocar el 'script' de tu juego en este archivo.
-
+image bg uni = "dibujando.png"
 # Declare images below this line, using the image statement.
 # - Declara imágenes bajo esta línea, usando 'image' como
 #   en el ejemplo.
