@@ -39,7 +39,7 @@ label start:
     c "Pero qué bestial está"
     c "¿Aquí hacen ese juego ustedes en el estudio?"
     "Así es Carlos"
-    c "¿Quienes lo hacen"
+    c "¿Cómo lo hacen?"
     "Desarrollar un videojuego involucra escribir guiones, programar, gráficos, economía, música y efectos de sonido"
     "Cómo verás son muchos los aspectos de crear un videojuego"
     "Por eso el trabajo en equipo es importante"
