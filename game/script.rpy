@@ -10,6 +10,7 @@
 # - Declara los personajes usados en el juego como en el
 #   ejemplo.
 define c = Character('Carlos', color="#c8ffc8")
+define d = Character('Desarrollador', color="d8ffc8")
 
 
 # The game starts here.
@@ -47,6 +48,22 @@ label start:
     c "¿Cómo son los desarrolladores de videojuegos?"
     "Son creativos y además entienden cosas de tecnología, matemáticas, contar historias y arte"
     "... de repente..."
+    "¡La tierra está temblando! ¡Es un terremoto!"
+    "...tembló un poco más..."
+    "Pero no duró mucho"
+    c "¿Se vá a caer el edificio?"
+    "Uf ¡Qué susto! No creo que se caiga. -Contestó el guía"
+    c "Ajajaja -Dejé escapar una risa algo nerviosa, para fingir que no tenía miedo y todo seguía bien"
+    c "Como sé mi poco desarrollar videojuegos no me dan miedo los terremotos"
+    "¿ ?"
+    "."
+    ".."
+    "..."
+    "Vale, relájate y sigamos con..."
+    d "¡Ey! ¿Adonde se fueron María y José?"
+    "No lo sé -Contestó el guía"
+    d "¡Ellos son quienes saben de gráficos y en este momento necesitamos cambiar los gráficos de la nave en cosa de 30 minutos!"
+    
 
 
     return
