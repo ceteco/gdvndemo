@@ -22,7 +22,7 @@ label start:
 
     scene black with dissolve
 
-    scene your_scene_title
+# scene your_scene_title
 
     c "And now the story really begins."
     
