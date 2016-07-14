@@ -17,8 +17,8 @@ init -1 python hide:
 
     ## Control de la anchura y altura de la pantalla.
 
-    config.screen_width = 800
-    config.screen_height = 600
+    config.screen_width = 1280
+    config.screen_height = 800
 
     ## Título de la ventana, cuando Ren'Py se ejecuta en
     ## modo ventana.
@@ -102,7 +102,7 @@ init -1 python hide:
     ## fondo no aparece.
 
     # style.window.left_margin = 6
-    # style.window.right_margin = 6
+    # style.window.right_margin = 6fo
     # style.window.top_margin = 6
     # style.window.bottom_margin = 6
 
@@ -149,7 +149,7 @@ init -1 python hide:
 
     ## Tamaño de letra por defecto.
 
-    # style.default.size = 22
+    style.default.size = 30
 
     ## Nota: Solo cambia el tamaño de parte del texto. Otros botones
     ## tienen sus propios estilos.
