@@ -149,7 +149,7 @@ init -1 python hide:
 
     ## Tamaño de letra por defecto.
 
-    style.default.size = 30
+    style.default.size = 40
 
     ## Nota: Solo cambia el tamaño de parte del texto. Otros botones
     ## tienen sus propios estilos.
