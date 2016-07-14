@@ -1,4 +1,4 @@
-Thu Jul 14 08:04:03 2016
+Thu Jul 14 09:08:46 2016
 Linux-4.4.0-28-generic-x86_64-with-Ubuntu-16.04-xenial
 Ren'Py 6.99.8.959
  
@@ -6,11 +6,11 @@ Ren'Py 6.99.8.959
 Bootstrap to the start of init.init took 0.05s
 Early init took 0.01s
 Loader init took 0.00s
-Loading error handling took 0.06s
-Loading script took 0.84s
+Loading error handling took 0.07s
+Loading script took 0.90s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.14s
+Running init code took 0.15s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -23,10 +23,10 @@ Creating interface object took 0.28s
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
@@ -35,7 +35,7 @@ Interface start took 0.00s
 
 primary display bounds: (0, 0, 1920, 1200)
 Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(800, 500) drawable=(800, 500)
+Screen sizes: virtual=(1280, 800) physical=(1593, 996) drawable=(1593, 996)
 Vendor: 'Intel Open Source Technology Center'
 Renderer: 'Mesa DRI Intel(R) Iris 6100 (Broadwell GT3) '
 Version: '3.0 Mesa 11.2.0'
@@ -273,99 +273,18 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.7934179306s
+Total time until interface ready: 1.95737195015s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.013273 seconds.
-- Frame drawn at 0.025986 seconds.
-- Frame drawn at 0.041551 seconds.
-- Frame drawn at 0.058677 seconds.
-- 0.058677 seconds to render 5 frames.
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(799, 500) drawable=(799, 500)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(797, 500) drawable=(797, 500)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(795, 500) drawable=(795, 500)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(793, 500) drawable=(793, 500)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(794, 500) drawable=(794, 500)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(823, 526) drawable=(823, 526)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(856, 549) drawable=(856, 549)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(920, 630) drawable=(920, 630)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1001, 717) drawable=(1001, 717)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1012, 807) drawable=(1012, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1015, 807) drawable=(1015, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1032, 807) drawable=(1032, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1206, 807) drawable=(1206, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1261, 807) drawable=(1261, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1328, 807) drawable=(1328, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1329, 807) drawable=(1329, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1331, 807) drawable=(1331, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1332, 807) drawable=(1332, 807)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1346, 824) drawable=(1346, 824)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1391, 877) drawable=(1391, 877)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1544, 954) drawable=(1544, 954)
-
-primary display bounds: (0, 0, 1920, 1200)
-Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1632, 996) drawable=(1632, 996)
+- Frame drawn at 0.023812 seconds.
+- Frame drawn at 0.032362 seconds.
+- Frame drawn at 0.046252 seconds.
+- Frame drawn at 0.063951 seconds.
+- 0.063951 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
