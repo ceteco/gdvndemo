@@ -73,15 +73,10 @@ label start:
     c "Oigan ustedes..."
     
     menu:
-
     "... creo que mejor voy partiendo":
-
         jump ayudar
-
     "... ¿Puedo ayudar en algo":
-
         jump ayudar
-        
     
 label ayudar:
         
