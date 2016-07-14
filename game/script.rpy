@@ -18,22 +18,15 @@ label start:
     
     scene black with dissolve
 
-    show text "Capítulo 3 \nA Naves Espaciales" with Pause(2.0)
+    show text "Capítulo 3 \nNaves Espaciales" with Pause(2.0)
 
     scene black with dissolve
 
 # scene your_scene_title
 
-    c "And now the story really begins."
-    
-    
-    "De casualidad pasaba por el estudio de desarrollo de videojuegos"
-    "Disfrutaba mucho de ver todas las actividades, pero jamás pude haber previsto"
-    "Que ese mismo día yo llegaría a aprender algo relacionado a crear un videojuego"
-    
-    c "BALEADAS."
-    
-    c "Ren'Py CORREEEEEALDASLJDLASJDLASJDLSAJDLASJDLSAJDLSAD."
+    "De casualidad pasaba por el estudio de desarrollo"
+    "Pero no tenía previsto que ese mismo día yo llegaría a aprender algo relacionado a crear un videojuego"
+    "Y ahora la historia en realidad comienza."    
     
     #Este código inserta un video en medio de la novela visual
     $ renpy.movie_cutscene("movie.ogv")
