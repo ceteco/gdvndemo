@@ -9,21 +9,20 @@
 # Declare characters used by this game.
 # - Declara los personajes usados en el juego como en el
 #   ejemplo.
-define e = Character('Eileen', color="#c8ffc8")
+define c = Character('Carlos', color="#c8ffc8")
 
 
 # The game starts here.
 # - El juego comienza aquí.
 label start:
     
-    e "BALEADAS."
+    c "BALEADAS."
     
-    e "Ren'Py CORREEEEEALDASLJDLASJDLASJDLSAJDLASJDLSAJDLSAD."
-
+    c "Ren'Py CORREEEEEALDASLJDLASJDLASJDLSAJDLASJDLSAJDLSAD."
+    
+    #Este código inserta un video en medio de la novela visual
     $ renpy.movie_cutscene("movie.ogv")
 
-    e "Has creado un nuevo juego Ren'Py."
 
-    e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
 
     return
