@@ -85,6 +85,9 @@ label start:
     
     label ayudar:
         
+        
+    return
+        
 
 
     return
