@@ -1,6 +1,7 @@
 ﻿# You can place the script of your game in this file.
 # - Puedes colocar el 'script' de tu juego en este archivo.
 image bg dibujando = "dibujando.png"
+image bg extra = "folder_extra.png"
 # Declare images below this line, using the image statement.
 # - Declara imágenes bajo esta línea, usando 'image' como
 #   en el ejemplo.
@@ -105,6 +106,10 @@ label dibujar:
     scene bg dibujando
     with fade    
     "Y así Carlos se sentó en la computadora y rápidamente dibujó una nave espacial"
+    
+    scene bg extra
+    with fade
+    "Una vez dibujada la nave espacial, la guardó en el folder que se vé en la pantalla con el cuadro en rojo"
     
         
 
