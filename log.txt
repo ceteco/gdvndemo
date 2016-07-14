@@ -1,4 +1,4 @@
-Thu Jul 14 09:08:46 2016
+Thu Jul 14 09:25:58 2016
 Linux-4.4.0-28-generic-x86_64-with-Ubuntu-16.04-xenial
 Ren'Py 6.99.8.959
  
@@ -7,10 +7,10 @@ Bootstrap to the start of init.init took 0.05s
 Early init took 0.01s
 Loader init took 0.00s
 Loading error handling took 0.07s
-Loading script took 0.90s
+Loading script took 0.88s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.15s
+Running init code took 0.14s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -24,7 +24,7 @@ Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
+Analyze screens took 0.00s
 Save screen analysis took 0.05s
 Prepare screens took 0.03s
 Save pyanalysis. took 0.00s
@@ -35,7 +35,7 @@ Interface start took 0.00s
 
 primary display bounds: (0, 0, 1920, 1200)
 Windowed mode.
-Screen sizes: virtual=(1280, 800) physical=(1593, 996) drawable=(1593, 996)
+Screen sizes: virtual=(1280, 800) physical=(1593, 995) drawable=(1593, 995)
 Vendor: 'Intel Open Source Technology Center'
 Renderer: 'Mesa DRI Intel(R) Iris 6100 (Broadwell GT3) '
 Version: '3.0 Mesa 11.2.0'
@@ -273,18 +273,18 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
-Total time until interface ready: 1.95737195015s
+Total time until interface ready: 1.89135503769s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
-- Frame drawn at 0.023812 seconds.
-- Frame drawn at 0.032362 seconds.
-- Frame drawn at 0.046252 seconds.
-- Frame drawn at 0.063951 seconds.
-- 0.063951 seconds to render 5 frames.
+- Frame drawn at 0.017597 seconds.
+- Frame drawn at 0.026974 seconds.
+- Frame drawn at 0.041863 seconds.
+- Frame drawn at 0.058980 seconds.
+- 0.058980 seconds to render 5 frames.
 Cleaning stores took 0.00s
-Init translation took 0.07s
+Init translation took 0.06s
 Build styles took 0.00s
-Load screen analysis took 0.01s
+Load screen analysis took 0.04s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
