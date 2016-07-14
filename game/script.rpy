@@ -79,8 +79,30 @@ menu:
         jump ayudar
     
 label ayudar:
-    d "Oye Carlos, hace un rato parecías decir saber algo de videojuegos"    
+    d "Oye Carlos, hace un rato parecías decir, el saber algo de videojuegos"
+    c "Ah pues sí, un poquito"
+    d "¿No sucederá que nos puedes ayudar?"
+    d "En la computadora está la documentación, pero yo (ni nadie) somos muy buenos con los gráficos"
+    d "Se necesita que dibujes una nueva nave en el juego que viste hace poco"
+    d "Y la sustituyas dentro del juego"
+    d "¿Podrás hacerlo?"
+    
+menu:
+    "... he visto a María haciendo esto algunas veces, lo intentaré":
+        jump dibujar
+    "Solamente sí me invitan a una Paella para mí sólo":
+        jump dibujar
+    "¡De volada!":
+        jump dibujar
         
+label dibujar:
+    d "¡Gracias! Por favor comienza dibujando la nave"
+    d "Toma esta laptop, tiene instalado todo el software que necesitas"
+    c "Copiado. Haré algo rápido ¿Está bien?"
+    d "Sí, solamente necesitamos que sea diferente. No preguntes porqué. Tienes 20 minutos."
+    c "ok"
+    
+    "Y así Carlos se sentó en la computadora y rápidamente dibujó una nave espacial"
     
         
 
