@@ -16,6 +16,8 @@ define e = Character('Eileen', color="#c8ffc8")
 # - El juego comienza aquí.
 label start:
 
+    e "Ren'Py CORREEEEEALDASLJDLASJDLASJDLSAJDLASJDLSAJDLSAD."
+
     e "Has creado un nuevo juego Ren'Py."
 
     e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
