@@ -16,6 +16,10 @@ define c = Character('Carlos', color="#c8ffc8")
 # - El juego comienza aquí.
 label start:
     
+    "De casualidad pasaba por el estudio de desarrollo de videojuegos"
+    "Disfrutaba mucho de ver todas las actividades, pero jamás pude haber previsto"
+    "Que ese mismo día yo llegaría a aprender algo relacionado a desarrollo de videojuegos"
+    
     c "BALEADAS."
     
     c "Ren'Py CORREEEEEALDASLJDLASJDLASJDLSAJDLASJDLSAJDLSAD."
