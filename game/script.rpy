@@ -48,6 +48,7 @@ label start:
     c "¿Cómo son los desarrolladores de videojuegos?"
     "Son creativos y además entienden cosas de tecnología, matemáticas, contar historias y arte"
     "... de repente..."
+    scene black with vpunch
     "¡La tierra está temblando! ¡Es un terremoto!"
     "...tembló un poco más..."
     "Pero no duró mucho"
