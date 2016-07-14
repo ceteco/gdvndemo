@@ -1,6 +1,6 @@
 ﻿# You can place the script of your game in this file.
 # - Puedes colocar el 'script' de tu juego en este archivo.
-image bg uni = "dibujando.png"
+image bg dibujando = "dibujando.png"
 # Declare images below this line, using the image statement.
 # - Declara imágenes bajo esta línea, usando 'image' como
 #   en el ejemplo.
@@ -102,6 +102,8 @@ label dibujar:
     d "Sí, solamente necesitamos que sea diferente. No preguntes porqué. Tienes 20 minutos."
     c "ok"
     
+    scene bg dibujando
+    with fade    
     "Y así Carlos se sentó en la computadora y rápidamente dibujó una nave espacial"
     
         
