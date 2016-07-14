@@ -18,7 +18,7 @@ label start:
     
     scene black with dissolve
 
-    show text "Chapter 1\nA Frightening Sight" with Pause(1.5)
+    show text "Capítulo 3 \nA Naves Espaciales" with Pause(2.0)
 
     scene black with dissolve
 
