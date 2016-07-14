@@ -5,6 +5,7 @@ image bg extra = "folder_extra.png"
 image bg exito = "exito.png"
 image bg mover = "mover.png"
 image bg edificio = "edificio.png"
+image bg tour = "tour.png"
 # Declare images below this line, using the image statement.
 # - Declara imágenes bajo esta línea, usando 'image' como
 #   en el ejemplo.
@@ -41,7 +42,8 @@ label start:
 
     c "¡Wow!"
     c "¿Eso es un juego de naves espaciales?"
-
+    scene bg tour
+    with fade
     "Sí -Contestó el guía"
 
     c "Pero qué bestial está"
@@ -57,7 +59,7 @@ label start:
     c "¿Cómo son los desarrolladores de videojuegos?"
     "Son creativos y además entienden cosas de tecnología, matemáticas, contar historias y arte"
     "... de repente..."
-    scene black with vpunch
+    scene bg edificio with vpunch
     play sound "temblor.wav"
     "¡La tierra está temblando! ¡Es un terremoto!"
     scene black with vpunch
