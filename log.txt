@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 Thu Jul 14 10:05:25 2016
 Darwin-15.0.0-x86_64-i386-64bit
 Ren'Py 6.99.10.1227
@@ -12,6 +13,9 @@ Loading script took 0.24s
 Loading persistent took 0.01s
 =======
 Thu Jul 14 09:55:01 2016
+=======
+Thu Jul 14 10:02:25 2016
+>>>>>>> 171cffccb5071ddd48d401c79c68804a98d28e83
 Linux-4.4.0-28-generic-x86_64-with-Ubuntu-16.04-xenial
 Ren'Py 6.99.8.959
  
@@ -20,7 +24,7 @@ Bootstrap to the start of init.init took 0.05s
 Early init took 0.01s
 Loader init took 0.00s
 Loading error handling took 0.07s
-Loading script took 0.89s
+Loading script took 0.84s
 Loading persistent took 0.00s
 >>>>>>> 48265aa51ec7fe9bb0988863bd65f0f6bac3ce33
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -37,10 +41,17 @@ Creating interface object took 0.21s
 Cleaning stores took 0.00s
 Init translation took 0.01s
 Build styles took 0.00s
+<<<<<<< HEAD
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.07s
 Prepare screens took 0.11s
+=======
+Load screen analysis took 0.01s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.04s
+>>>>>>> 171cffccb5071ddd48d401c79c68804a98d28e83
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.04s
 Running _start took 0.00s
@@ -215,6 +226,7 @@ Texture testing:
 - 1024px textures work.
 - 2048px textures work.
 <<<<<<< HEAD
+<<<<<<< HEAD
 Total time until interface ready: 1.66811800003s
 - Target is 5 frames in 0.333333333333 seconds.
 - Frame drawn at 0.000000 seconds.
@@ -240,3 +252,13 @@ Total time until interface ready: 1.91196489334s
 - Frame drawn at 0.061509 seconds.
 - 0.061509 seconds to render 5 frames.
 >>>>>>> 48265aa51ec7fe9bb0988863bd65f0f6bac3ce33
+=======
+Total time until interface ready: 1.81472492218s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.016519 seconds.
+- Frame drawn at 0.025808 seconds.
+- Frame drawn at 0.039967 seconds.
+- Frame drawn at 0.058006 seconds.
+- 0.058006 seconds to render 5 frames.
+>>>>>>> 171cffccb5071ddd48d401c79c68804a98d28e83
