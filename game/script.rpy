@@ -18,10 +18,13 @@ define d = Character('Desarrollador', color="ff8000")
 # The game starts here.
 # - El juego comienza aquí.
 label start:
-    
+    stop music fadeout 1.0
+
     scene black with dissolve
 
     show text "Capítulo 3 \nNaves Espaciales" with Pause(2.0)
+
+    play music "intro.ogg" fadein 1.0
 
     scene black with dissolve
 
@@ -29,16 +32,16 @@ label start:
 
     "Hoy es día de tour por el estudio de desarrollo"
     "No tenía previsto que ese mismo día se me presentase la opción de contribuír en el desarrollo de un videojuego"
-    "Ahora la historia en realidad comienza."    
-    
+    "Ahora la historia en realidad comienza."
+
     #Este código inserta un video en medio de la novela visual
     $ renpy.movie_cutscene("movie.ogv")
 
-    c "¡Wow!" 
+    c "¡Wow!"
     c "¿Eso es un juego de naves espaciales?"
-    
+
     "Sí -Contestó el guía"
-    
+
     c "Pero qué bestial está"
     c "¿Aquí hacen ese juego ustedes en el estudio?"
     "Así es Carlos"
@@ -73,13 +76,13 @@ label start:
     d "¡No están por ningún lado"
     c "¡Rayos! -Pensé para mí mismo"
     c "Oigan ustedes..."
-    
+
 menu:
     "... creo que mejor voy partiendo":
         jump ayudar
     "... ¿Puedo ayudar en algo?":
         jump ayudar
-    
+
 label ayudar:
     d "Oye Carlos, hace un rato parecías decir, el saber algo de videojuegos"
     c "Ah pues sí, un poquito"
@@ -88,7 +91,7 @@ label ayudar:
     d "Se necesita que dibujes una nueva nave en el juego que viste hace poco"
     d "Y la sustituyas dentro del juego"
     d "¿Podrás hacerlo?"
-    
+
 menu:
     "... he visto a María haciendo esto algunas veces, lo intentaré":
         jump dibujar
@@ -96,18 +99,18 @@ menu:
         jump dibujar
     "¡De volada!":
         jump dibujar
-        
+
 label dibujar:
     d "¡Gracias! Por favor comienza dibujando la nave"
     d "Toma esta laptop, tiene instalado todo el software que necesitas"
     c "Copiado. Haré algo rápido ¿Está bien?"
     d "Sí, solamente necesitamos que sea diferente. No preguntes porqué. Tienes 20 minutos."
     c "ok"
-    
+
     scene bg dibujando
-    with fade    
+    with fade
     "Y así Carlos se sentó en la computadora y rápidamente dibujó una nave espacial"
-    
+
     scene bg extra
     with fade
     c "¡Excelente! Ya terminé de dibujar la nave espacial y la guardé en el lugar correcto!"
@@ -132,12 +135,12 @@ label dibujar:
     c "Gracias"
     d "Ven, te invito a una pizza..."
     "Buen final"
-    
-    
-    
-    
-    
-        
+
+
+
+
+
+
 
 
     return
