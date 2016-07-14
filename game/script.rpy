@@ -10,7 +10,7 @@
 # - Declara los personajes usados en el juego como en el
 #   ejemplo.
 define c = Character('Carlos', color="#c8ffc8")
-define d = Character('Desarrollador', color="d8ffc8")
+define d = Character('Desarrollador', color="d8ffb2")
 
 
 # The game starts here.
