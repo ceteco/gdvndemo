@@ -2,6 +2,7 @@
 # - Puedes colocar el 'script' de tu juego en este archivo.
 image bg dibujando = "dibujando.png"
 image bg extra = "folder_extra.png"
+image bg exito = "exito.png"
 # Declare images below this line, using the image statement.
 # - Declara imágenes bajo esta línea, usando 'image' como
 #   en el ejemplo.
@@ -109,7 +110,32 @@ label dibujar:
     
     scene bg extra
     with fade
-    "Una vez dibujada la nave espacial, la guardó en el folder que se vé en la pantalla con el cuadro en rojo"
+    c "¡Excelente! Ya terminé de dibujar la nave espacial y la guardé en el lugar correcto!"
+    "Dijo Carlos mientras admiraba su obra"
+    c "Pero esto aún no termina ¡Caracoles!"
+    c "¿Cómo haré para sustituír la nave espacial que trae el juego por la mía?"
+    "Mientras Carlos se preguntaba, se topó con algunas capturas de pantalla de María, en las cuáles explicaba el proceso"
+    "Las fué viendo en la computadora"
+    "¡AHORA TÚ QUE ESTÁS DEL OTRO LADO DE LA PANTALLA!"
+    "Es tu momento de brillar y hacer que el juego cobre vida con el nuevo dibujo de nave espacial de Carlos"
+    "Lógralo para pasar al siguiente nivel"
+    "Mira bien la nave original que incluye el juego, es un triángulo blanco, ejécutalo en tu computadora para observarlo"
+    "Ahora copia de el folder -extra- el archivo spaceship.png"
+    "Copialo en el folder anterior, -sprites-. Cuando pregunte sí quieres sobre-escribir responde que sí"
+    "Ahora corre de nuevo el juego"
+    scene bg extra
+    with fade
+    d "¡Excelente trabajo Carlos!"
+    d "¡Con tu habilidad salvaste el día!"
+    c "ajaja, no es para tanto (Sí supiera como me costó)"
+    d "No digas tonterías, este trabajo ya nos saca del apuro"
+    c "Gracias"
+    d "Ven, te invito a una pizza..."
+    "Buen final"
+    
+    
+    
+    
     
         
 
