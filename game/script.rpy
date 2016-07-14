@@ -34,7 +34,7 @@ label start:
     c "¡Wow!" 
     c "¿Eso es un juego de naves espaciales?"
     
-    "Sí" -Contestó el guía
+    "Sí -Contestó el guía"
     
     c "Pero qué bestial está"
     c "¿Aquí hacen ese juego ustedes en el estudio?"
