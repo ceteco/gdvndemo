@@ -72,16 +72,16 @@ label start:
     c "¡Rayos! -Pensé para mí mismo"
     c "Oigan ustedes..."
     
-    menu:
+menu:
     "... creo que mejor voy partiendo":
         jump ayudar
-    "... ¿Puedo ayudar en algo":
+    "... ¿Puedo ayudar en algo?":
         jump ayudar
     
 label ayudar:
+    d "Oye Carlos, hace un rato parecías decir saber algo de videojuegos"    
         
-        
-    return
+    
         
 
 
