@@ -58,10 +58,13 @@ label start:
     "Son creativos y además entienden cosas de tecnología, matemáticas, contar historias y arte"
     "... de repente..."
     scene black with vpunch
+    play sound "temblor.wav"
     "¡La tierra está temblando! ¡Es un terremoto!"
     scene black with vpunch
+    play sound "temblor.wav"
     "...tembló un poco más..."
     scene black with vpunch
+    play sound "temblor.wav"
     "Pero no duró mucho"
     c "¿Se vá a caer el edificio?"
     "Uf ¡Qué susto! No creo que se caiga. -Contestó el guía"
