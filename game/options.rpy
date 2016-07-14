@@ -173,21 +173,21 @@ init -1 python hide:
 
     ## Sonidos utilizados cuando se hace clic en un botón o "imagemap".
 
-    # style.button.activate_sound = "click.wav"
-    # style.imagemap.activate_sound = "click.wav"
+    style.button.activate_sound = "select.wav"
+    style.imagemap.activate_sound = "select.wav"
 
     ## Sonidos utilizados cuando se entra o sale del menú del juego.
 
-    # config.enter_sound = "click.wav"
-    # config.exit_sound = "click.wav"
+    config.enter_sound = "enter_exit_menu.wav"
+    config.exit_sound = "enter_exit_menu.wav"
 
     ## Sonido de ejemplo utilizado para comprobar el volumen.
 
-    # config.sample_sound = "click.wav"
+    config.sample_sound = "select.wav"
 
     ## Música del menú principal.
 
-    # config.main_menu_music = "main_menu_theme.ogg"
+    config.main_menu_music = "main_menu.ogg"
 
 
     #########################################
