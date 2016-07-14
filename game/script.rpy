@@ -16,9 +16,20 @@ define c = Character('Carlos', color="#c8ffc8")
 # - El juego comienza aquí.
 label start:
     
+    scene black with dissolve
+
+    show text "Chapter 1\nA Frightening Sight" with Pause(1.5)
+
+    scene black with dissolve
+
+    scene your_scene_title
+
+    c "And now the story really begins."
+    
+    
     "De casualidad pasaba por el estudio de desarrollo de videojuegos"
     "Disfrutaba mucho de ver todas las actividades, pero jamás pude haber previsto"
-    "Que ese mismo día yo llegaría a aprender algo relacionado a desarrollo de videojuegos"
+    "Que ese mismo día yo llegaría a aprender algo relacionado a crear un videojuego"
     
     c "BALEADAS."
     
