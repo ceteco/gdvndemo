@@ -121,7 +121,7 @@ label dibujar:
     "Lógralo para pasar al siguiente nivel"
     "Mira bien la nave original que incluye el juego, es un triángulo blanco, ejécutalo en tu computadora para observarlo"
     "Ahora copia de el folder -extra- el archivo spaceship.png"
-    "Copialo en el folder anterior, -sprites-. Cuando pregunte sí quieres sobre-escribir responde que sí"
+    "Pégalo en el folder anterior, -sprites-. Cuando pregunte sí quieres sobre-escribir responde que sí"
     "Ahora corre de nuevo el juego"
     scene bg extra
     with fade
