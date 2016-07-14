@@ -50,7 +50,9 @@ label start:
     "... de repente..."
     scene black with vpunch
     "¡La tierra está temblando! ¡Es un terremoto!"
+    scene black with vpunch
     "...tembló un poco más..."
+    scene black with vpunch
     "Pero no duró mucho"
     c "¿Se vá a caer el edificio?"
     "Uf ¡Qué susto! No creo que se caiga. -Contestó el guía"
