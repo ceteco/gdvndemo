@@ -83,7 +83,7 @@ label start:
         jump ayudar
         
     
-    label ayudar:
+label ayudar:
         
         
     return
