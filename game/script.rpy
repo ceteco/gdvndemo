@@ -3,6 +3,7 @@
 image bg dibujando = "dibujando.png"
 image bg extra = "folder_extra.png"
 image bg exito = "exito.png"
+image bg mover = "mover.png"
 # Declare images below this line, using the image statement.
 # - Declara imágenes bajo esta línea, usando 'image' como
 #   en el ejemplo.
@@ -121,7 +122,7 @@ label dibujar:
     "Lógralo para pasar al siguiente nivel"
     "Mira bien la nave original que incluye el juego, es un triángulo blanco, ejécutalo en tu computadora para observarlo"
     "Ahora copia de el folder -extra- el archivo spaceship.png"
-    scene bg extra
+    scene bg mover
     with fade
     "Pégalo en el folder anterior, -sprites-. Cuando pregunte sí quieres sobre-escribir responde que sí"
     "Ahora corre de nuevo el juego"
