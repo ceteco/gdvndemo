@@ -20,6 +20,8 @@ label start:
     
     e "Ren'Py CORREEEEEALDASLJDLASJDLASJDLSAJDLASJDLSAJDLSAD."
 
+    $ renpy.movie_cutscene("movie.ogv")
+
     e "Has creado un nuevo juego Ren'Py."
 
     e "Añade una historia, imágenes y música, ¡y puedes presentarlo al mundo!"
