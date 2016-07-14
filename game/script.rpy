@@ -4,6 +4,7 @@ image bg dibujando = "dibujando.png"
 image bg extra = "folder_extra.png"
 image bg exito = "exito.png"
 image bg mover = "mover.png"
+image bg edificio = "edificio.png"
 # Declare images below this line, using the image statement.
 # - Declara imágenes bajo esta línea, usando 'image' como
 #   en el ejemplo.
@@ -50,6 +51,8 @@ label start:
     "Desarrollar un videojuego involucra escribir guiones, programar, gráficos, economía, música y efectos de sonido"
     "Cómo verás son muchos los aspectos de crear un videojuego"
     "Por eso el trabajo en equipo es importante"
+    scene bg edificio
+    with fade
     c "No sabía que era tanto lo que involucraba"
     c "¿Cómo son los desarrolladores de videojuegos?"
     "Son creativos y además entienden cosas de tecnología, matemáticas, contar historias y arte"
